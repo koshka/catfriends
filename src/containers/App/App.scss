@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "SEGA";
+  src: url("../../SEGA.TTF");
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background: linear-gradient(
+    to left,
+    rgba(7, 27, 82, 1) 0%,
+    rgba(0, 128, 128, 1) 100%
+  );
+  z-index: 1;
+
+  h1 {
+    font-family: "SEGA";
+    font-weight: 200;
+    color: #0ccac4;
+  }
+}
+
+.loading {
+  color: #0ccac4;
+}
+
+.error-fallback {
+  color: red;
+  padding: 50px;
+  font-size: 42px;
+  font-weight: bold;
+}
